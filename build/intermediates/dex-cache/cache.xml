@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/classes-c1ba68fd9e73d04c61b30f077a431c7e9b69ee0c.jar" />
+    </item>
+    <item
+        jar="/home/kiblik/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-a29fdfaec36ae7c6934cec468e5b03af3b5bfc43.jar" />
+    </item>
+
+</items>
