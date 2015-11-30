@@ -34,6 +34,14 @@ import com.facebook.FacebookSdk;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -58,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         setupName(loginResult.getAccessToken());
                     }
-
                     @Override
                     public void onCancel() {
                         Log.d("FB","Canceled");
@@ -138,5 +145,29 @@ public class MainActivity extends AppCompatActivity {
         request.setParameters(parameters);
         request.executeAsync();
         loginButton.setVisibility(View.INVISIBLE);
+
+    }
+    private void sendScore( int fbid, int score){
+        final URL[] url = {null};
+        final HttpURLConnection[] urlConnection = {null};
+        final Integer[] fbidf = {fbid};
+        final Integer[] scoref = {score};
+        Thread thread = new Thread(new Runnable(){
+            @Override
+            public void run() {
+                try {
+                    url[0] = new URL("http://hra55-1108.appspot.com/command?action=submit_score&fbid="+fbidf[0].toString()+"&score="+scoref[0].toString());
+                    urlConnection[0] = (HttpURLConnection) url[0].openConnection();
+                    Log.d("submitScore","ResponseCode:"+urlConnection[0].getResponseCode());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
+                    urlConnection[0].disconnect();
+                }
+            }
+        });
+
+        thread.start();
+
     }
 }

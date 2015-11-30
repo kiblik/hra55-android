@@ -2,6 +2,27 @@
 <items version="2" >
 
     <item
+        jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/classes-eb8ccae4224cb63a59875d453da1eecde1b1ab89.jar" />
+    </item>
+    <item
+        jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-681722645f560364f66748c1538f57c5b1662136.jar" />
+    </item>
+    <item
+        jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/classes-eea2165086adb51a9cc339ad6d8d95a7a0cd5153.jar" />
+    </item>
+    <item
         jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -9,11 +30,32 @@
         <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/classes-c1ba68fd9e73d04c61b30f077a431c7e9b69ee0c.jar" />
     </item>
     <item
+        jar="/home/kiblik/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-6ebd162696aab8b60b5b9a8efbca40eadf69d3bb.jar" />
+    </item>
+    <item
         jar="/home/kiblik/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
         <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-a29fdfaec36ae7c6934cec468e5b03af3b5bfc43.jar" />
+    </item>
+    <item
+        jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0adb9447509bdd9a674c1c3e7e5ee996247df478">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/classes-cb04d108dda964dbc13e9239baa12fd6b38bd16a.jar" />
+    </item>
+    <item
+        jar="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/kiblik/StudioProjects/hra55-android/app/build/intermediates/pre-dexed/debug/classes-30518e5b18d3384d1183ce21a856528fc007adbc.jar" />
     </item>
 
 </items>
